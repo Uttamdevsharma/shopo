@@ -64,7 +64,7 @@ const Home = () =>{
              class="w-full h-48 object-cover mb-4 rounded"           
              />
              <h2 class="text-lg font-bold">{product.title}</h2>
-             <p class="text-sm text-gray-600 mb-2">{product.description}</p>
+             <p class="text-sm text-gray-500 mb-2">{product.description}</p>
              <p class="text-blue-600 font-semibold mb-3">{product.price}</p>
 
              <div class="flex justify-between items-center">
