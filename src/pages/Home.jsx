@@ -8,9 +8,7 @@ const Home = () =>{
     const {addToCart } = useCart();
 
     const [searchTerm,setSearchTerm] = useState("");
-    const [sortOrder,setSortOrder] = useState("");
-
-
+    const [sortOrder,setSortOrder] = useState(" ");
 
     //Filtered Data
     const filteredProducts = productsData
