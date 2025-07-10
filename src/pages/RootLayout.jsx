@@ -6,6 +6,7 @@ const RootLayout = () => {
   return (
     <>
     <Navbar/>
+    
 
     <main class='min-h-[80vh] bg-gray-100 p-4'>
 
