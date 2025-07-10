@@ -34,7 +34,7 @@ const Home = () =>{
   <div className="mb-6 flex flex-col md:flex-row items-center justify-between gap-4">
     <input
       type="text"
-      placeholder="Search products..."
+      placeholder="Search products.."
       value={searchTerm}
       onChange={(e) => setSearchTerm(e.target.value)}
       className="border p-2 rounded w-full md:w-1/2"
