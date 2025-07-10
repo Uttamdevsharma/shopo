@@ -21,9 +21,10 @@ const Navbar = () => {
         <Link to="/cart" className="relative hover:text-blue-500">
           <FaShoppingCart className="text-2xl" />
           {itemCount > 0 && (
-            <span class="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full px-1">
+            <span class="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full  px-1">
+              
                 {itemCount}
-                
+
             </span>
           )}
         </Link>
